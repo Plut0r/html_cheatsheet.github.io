@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plut0r HTML Cheatsheet</title>
+    <link rel="stylesheet" href="./resources/css/main.css">
+</head>
+<body>
+    <header>HTML CHEATSHEET</header>
+    <section>
+        <h1>HTML In General</h1>
+        <p>HTML is Hypertext Markup Language and should be started with a doctype declaration and html tag specifying the current html version which is html 5. To begin with HTML, it has elements which should begin with an opening tag &lt. and end with a closing tag &gt. HTML is divided into two namely:
+            <ul>
+                <li>Semantic HTML</li>
+                <li>Unsemantic HTML</li>
+            </ul>
+        </p>
+        <p>Semantic HTML simply means HTML that reflects its content. Examples include: 
+            <ul>
+                <li>&ltarticle&gt</li>
+                <li>&ltaside&gt</li>
+                <li>&ltdetails&gt</li>
+                <li>&ltfigcaption&gt</li>
+                <li>&ltfigure&gt</li>
+                <li>&ltfooter&gt</li>
+                <li>&ltheader&gt</li>
+                <li>&ltmain&gt</li>
+                <li>&ltmark&gt</li>
+                <li>&ltnav&gt</li>
+                <li>&ltsection&gt</li>
+                <li>&ltsummary&gt</li>
+                <li>&lttime&gt</li>
+            </ul>
+            <br>
+            and unsemantic HTML, which is the reverse of semantic HTML. Examples include:
+            <ul>
+                <li>&ltdiv&gt</li>
+                <li>&ltSpan&gt</li>
+            </ul>
+        </p>
+    </section>
+    <section>
+       <h2>HTML Table Reference</h2> 
+       <h3>Table Tags</h3>
+       <table>
+           <thead>
+               <tr scope="rows">
+                   <th>Tag</th>
+                   <th>Name</th>
+                   <th>Description</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td class="tab">&lttable&gt</td>
+                   <td>Table</td>
+                   <td>The wrapper element for all html tables.</td>
+               </tr>
+               <tr>
+                   <td class="tab">&ltthead&gt</td>
+                   <td>Table Head</td>
+                   <td>The set of rows defining the column headers in a table.</td>
+               </tr>
+               <tr>
+                   <td class="tab">&lttbody&gt</td>
+                   <td>Table Body</td>
+                   <td>The set of rows containing actual table data</td>
+               </tr>
+               <tr>
+                   <td class="tab">&lttr&gt</td>
+                   <td>Table Row</td>
+                   <td>The table row container</td>
+               </tr>
+               <tr>
+                   <td class="tab">&lttd&gt</td>
+                   <td>Table Data</td>
+                   <td>The table data container</td>
+               </tr>
+               <tr>
+                   <td class="tab">&lttfoot&gt</td>
+                   <td>Table Foot</td>
+                   <td>The set of rows defining the footer in a table</td>
+               </tr>
+           </tbody>
+       </table>
+       <h3>Table attribute</h3>
+       <table>
+           <thead>
+               <tr scope="rows">
+                   <th>Attribute</th>
+                   <th>Name</th>
+                   <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                   <td class="tab">Colspan</td>
+                   <td>Column span</td>
+                   <td>Defines how many columns a td element should span</td>
+               </tr>
+               <tr>
+                   <td class="tab">Rowspan</td>
+                   <td>Row span</td>
+                   <td>Defines how many rows a td element should span</td>
+               </tr>
+            </tbody>
+       </table>
+    </section>
+    <section>
+        <h2>HTML Form Reference</h2>
+        <form action="submission.html" method="GET">
+                <h4 class="for">Contact Form</h4>
+                <p class="for">Form is another aspect of HTML and below is how a form looks like</p>
+<label for="name">Enter your name</label><br>
+                <input type="text" placeholder="Your Name" id="name" name="name"><br>
+<label for="email">Enter your email address:</label><br>
+                <input type="email" placeholder="Email Address" id="email" name="email"><br>
+<textarea id="message" name="message" rows="5" cols="30">Message</textarea>
+<br>
+<span>Select your gender:</span><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="others" name="gender" value="others">
+<label for="others">Others</label><br>
+<span>Select your age:</span><br>
+<input type="checkbox" id="0-10" name="age" value="0-10">
+<label for="0-10">0-10</label><br>
+<input type="checkbox" id="10-19" name="age" value="10-19">
+<label for="10-19">10-19</label><br>
+<input type="checkbox" id="19-25" name="age" value="19-25">
+<label for="19-25">19-25</label><br>
+<input type="checkbox" id="25" name="age" value="25">
+<label for="25">25 and above</label><br>
+<input type="checkbox" id="above" name="age" value="above">
+<label for="above">Others</label>
+        </form>
+    </section>
+</body>
+</html>

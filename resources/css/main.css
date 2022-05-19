@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&display=swap');
+body {
+    background: lightgray;
+    font-size: 20px;
+}
+header {
+    font-family: Koulen;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h3 {
+    color: purple;
+}
+table,th {
+    border: 1px solid purple;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+thead {
+    background-color: purple;
+}
+.tab {
+    color: grey;
+}
+li {
+    font-weight: bold;
+}
+.for {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+form {
+    background: purple;
+    text-align: center;
+}
+input, textarea {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+label, span {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
